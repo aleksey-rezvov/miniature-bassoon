@@ -1,0 +1,1104 @@
+/*
+        object-assign
+        (c) Sindre Sorhus
+        @license MIT
+        */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+/*!
+ * perfect-scrollbar v1.5.0
+ * Copyright 2020 Hyunje Jun, MDBootstrap and Contributors
+ * Licensed under MIT
+ */
+
+/*! ../../adapter/editor-context */
+
+/*! ../../lib/ckeditor/ckeditor */
+
+/*! ../../oop/lang */
+
+/*! ../../src/adapter/main */
+
+/*! ../../utils */
+
+/*! ../adapter/editor-context */
+
+/*! ../base/button-action-style */
+
+/*! ../base/button-command */
+
+/*! ../base/button-command-active */
+
+/*! ../base/button-keystroke */
+
+/*! ../base/button-props */
+
+/*! ../base/button-state-classes */
+
+/*! ../base/button-style */
+
+/*! ../base/toolbar-buttons */
+
+/*! ../base/widget-dropdown */
+
+/*! ../base/widget-exclusive */
+
+/*! ../base/widget-focus-manager */
+
+/*! ../buttons/button-dropdown.jsx */
+
+/*! ../buttons/button-icon.jsx */
+
+/*! ../buttons/button-link-edit.jsx */
+
+/*! ../commands */
+
+/*! ../components/base */
+
+/*! ../components/buttons */
+
+/*! ../components/compat */
+
+/*! ../components/main.jsx */
+
+/*! ../components/toolbars */
+
+/*! ../components/uibridge */
+
+/*! ../core */
+
+/*! ../oop/attribute */
+
+/*! ../oop/base */
+
+/*! ../oop/lang */
+
+/*! ../oop/oop */
+
+/*! ../plugins */
+
+/*! ../selections/selection-arrowbox */
+
+/*! ../selections/selection-position */
+
+/*! ../selections/selection-test */
+
+/*! ../selections/selections */
+
+/*! ../utils */
+
+/*! ./../process/browser.js */
+
+/*! ./DragEvent.es */
+
+/*! ./Resizer.es */
+
+/*! ./addimages */
+
+/*! ./attribute */
+
+/*! ./autolink */
+
+/*! ./autolist */
+
+/*! ./base/widget-exclusive */
+
+/*! ./base/widget-focus-manager */
+
+/*! ./button-accessibility-image-alt.jsx */
+
+/*! ./button-action-style */
+
+/*! ./button-background-color.jsx */
+
+/*! ./button-bold.jsx */
+
+/*! ./button-camera-image.jsx */
+
+/*! ./button-camera.jsx */
+
+/*! ./button-code.jsx */
+
+/*! ./button-color.jsx */
+
+/*! ./button-command */
+
+/*! ./button-command-active */
+
+/*! ./button-command-list-item.jsx */
+
+/*! ./button-commands-list.jsx */
+
+/*! ./button-dropdown.jsx */
+
+/*! ./button-embed-edit.jsx */
+
+/*! ./button-embed-video-edit.jsx */
+
+/*! ./button-embed-video.jsx */
+
+/*! ./button-embed.jsx */
+
+/*! ./button-h1.jsx */
+
+/*! ./button-h2.jsx */
+
+/*! ./button-hline.jsx */
+
+/*! ./button-icon.jsx */
+
+/*! ./button-image-align-center.jsx */
+
+/*! ./button-image-align-left.jsx */
+
+/*! ./button-image-align-right.jsx */
+
+/*! ./button-image.jsx */
+
+/*! ./button-indent-block.jsx */
+
+/*! ./button-italic.jsx */
+
+/*! ./button-item-selector-audio.jsx */
+
+/*! ./button-item-selector-image.jsx */
+
+/*! ./button-item-selector-video.jsx */
+
+/*! ./button-keystroke */
+
+/*! ./button-link-autocomplete-list.jsx */
+
+/*! ./button-link-browse.jsx */
+
+/*! ./button-link-edit-browse.jsx */
+
+/*! ./button-link-edit.jsx */
+
+/*! ./button-link-target-edit.jsx */
+
+/*! ./button-link.jsx */
+
+/*! ./button-ol.jsx */
+
+/*! ./button-outdent-block.jsx */
+
+/*! ./button-paragraph-align-left.jsx */
+
+/*! ./button-paragraph-align-right.jsx */
+
+/*! ./button-paragraph-align.jsx */
+
+/*! ./button-paragraph-center.jsx */
+
+/*! ./button-paragraph-justify.jsx */
+
+/*! ./button-props */
+
+/*! ./button-quote.jsx */
+
+/*! ./button-remove-format.jsx */
+
+/*! ./button-remove-image.jsx */
+
+/*! ./button-separator.jsx */
+
+/*! ./button-smiley.jsx */
+
+/*! ./button-spacing.jsx */
+
+/*! ./button-state-classes */
+
+/*! ./button-strike.jsx */
+
+/*! ./button-style */
+
+/*! ./button-styles-list-header.jsx */
+
+/*! ./button-styles-list-item-remove.jsx */
+
+/*! ./button-styles-list-item.jsx */
+
+/*! ./button-styles-list.jsx */
+
+/*! ./button-styles.jsx */
+
+/*! ./button-subscript.jsx */
+
+/*! ./button-superscript.jsx */
+
+/*! ./button-table-cell.jsx */
+
+/*! ./button-table-column.jsx */
+
+/*! ./button-table-edit.jsx */
+
+/*! ./button-table-heading.jsx */
+
+/*! ./button-table-remove.jsx */
+
+/*! ./button-table-row.jsx */
+
+/*! ./button-table.jsx */
+
+/*! ./button-target-list.jsx */
+
+/*! ./button-twitter.jsx */
+
+/*! ./button-ul.jsx */
+
+/*! ./button-underline.jsx */
+
+/*! ./button.jsx */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./core */
+
+/*! ./debounce */
+
+/*! ./dragresize */
+
+/*! ./dragresize_ie */
+
+/*! ./dragresize_ie11 */
+
+/*! ./editor-context */
+
+/*! ./embed */
+
+/*! ./embedurl */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./imagealignment */
+
+/*! ./lang */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./link */
+
+/*! ./menu-button.jsx */
+
+/*! ./menu.jsx */
+
+/*! ./oop */
+
+/*! ./panel-menu-button.jsx */
+
+/*! ./pasteimages */
+
+/*! ./placeholder */
+
+/*! ./plugins */
+
+/*! ./priorities */
+
+/*! ./remove-image */
+
+/*! ./richcombo.jsx */
+
+/*! ./selection-arrowbox */
+
+/*! ./selection-position */
+
+/*! ./selection-region */
+
+/*! ./selection-test */
+
+/*! ./selectionkeystrokes */
+
+/*! ./table */
+
+/*! ./tableresize */
+
+/*! ./tabletools */
+
+/*! ./toolbar-add.jsx */
+
+/*! ./toolbar-buttons */
+
+/*! ./toolbar-styles.jsx */
+
+/*! ./tools */
+
+/*! ./uibridge */
+
+/*! ./uicore */
+
+/*! ./version */
+
+/*! ./widget-arrow-box */
+
+/*! ./widget-dropdown */
+
+/*! ./widget-exclusive */
+
+/*! ./widget-focus-manager */
+
+/*! ./widget-interaction-point */
+
+/*! ./widget-position */
+
+/*! exports provided: AlloyEditor */
+
+/*! no static exports found */
+
+/*! object-assign */
+
+/*! path */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-dom */
+
+/*! react-is */
+
+/*! regenerator-runtime */
+
+/*!**********************!*\
+        !*** ./src/utils.js ***!
+        \**********************/
+
+/*!************************!*\
+        !*** ./src/oop/oop.js ***!
+        \************************/
+
+/*!*************************!*\
+        !*** ./src/oop/base.js ***!
+        \*************************/
+
+/*!*************************!*\
+        !*** ./src/oop/lang.js ***!
+        \*************************/
+
+/*!**************************!*\
+        !*** ./src/core/link.js ***!
+        \**************************/
+
+/*!***************************!*\
+        !*** ./src/core/index.js ***!
+        \***************************/
+
+/*!***************************!*\
+        !*** ./src/core/table.js ***!
+        \***************************/
+
+/*!***************************!*\
+        !*** ./src/core/tools.js ***!
+        \***************************/
+
+/*!****************************!*\
+        !*** ./src/core/uicore.js ***!
+        \****************************/
+
+/*!*****************************!*\
+        !*** ./src/adapter/core.js ***!
+        \*****************************/
+
+/*!*****************************!*\
+        !*** ./src/adapter/main.js ***!
+        \*****************************/
+
+/*!*****************************!*\
+        !*** ./src/core/plugins.js ***!
+        \*****************************/
+
+/*!******************************!*\
+        !*** ./src/core/debounce.js ***!
+        \******************************/
+
+/*!******************************!*\
+        !*** ./src/oop/attribute.js ***!
+        \******************************/
+
+/*!******************************!*\
+        !*** ./src/plugins/embed.js ***!
+        \******************************/
+
+/*!******************************!*\
+        !*** ./src/plugins/index.js ***!
+        \******************************/
+
+/*!*******************************!*\
+        !*** ./src/commands/index.js ***!
+        \*******************************/
+
+/*!*********************************!*\
+        !*** ./src/components/main.jsx ***!
+        \*********************************/
+
+/*!*********************************!*\
+        !*** ./src/plugins/autolink.js ***!
+        \*********************************/
+
+/*!*********************************!*\
+        !*** ./src/plugins/autolist.js ***!
+        \*********************************/
+
+/*!*********************************!*\
+        !*** ./src/plugins/embedurl.js ***!
+        \*********************************/
+
+/*!**********************************!*\
+        !*** ./lib/ckeditor/ckeditor.js ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** ./scripts/build/version.js ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** ./src/plugins/addimages.js ***!
+        \**********************************/
+
+/*!***********************************!*\
+        !*** ./src/plugins/Resizer.es.js ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./src/plugins/dragresize.js ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./src/plugins/priorities.js ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./src/plugins/tabletools.js ***!
+        \***********************************/
+
+/*!************************************!*\
+        !*** ./src/plugins/pasteimages.js ***!
+        \************************************/
+
+/*!************************************!*\
+        !*** ./src/plugins/placeholder.js ***!
+        \************************************/
+
+/*!************************************!*\
+        !*** ./src/plugins/tableresize.js ***!
+        \************************************/
+
+/*!*************************************!*\
+        !*** ./src/plugins/DragEvent.es.js ***!
+        \*************************************/
+
+/*!**************************************!*\
+        !*** ./src/commands/remove-image.js ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./src/components/base/index.js ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./src/core/selection-region.js ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./src/plugins/dragresize_ie.js ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./src/selections/selections.js ***!
+        \**************************************/
+
+/*!***************************************!*\
+        !*** ./src/adapter/editor-context.js ***!
+        \***************************************/
+
+/*!***************************************!*\
+        !*** ./src/plugins/imagealignment.js ***!
+        \***************************************/
+
+/*!****************************************!*\
+        !*** ./node_modules/react-is/index.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./scripts/build/with-ckeditor.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./src/components/compat/index.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./src/plugins/dragresize_ie11.js ***!
+        \****************************************/
+
+/*!*****************************************!*\
+        !*** ./node_modules/process/browser.js ***!
+        \*****************************************/
+
+/*!*****************************************!*\
+        !*** ./src/components/buttons/index.js ***!
+        \*****************************************/
+
+/*!******************************************!*\
+        !*** ./node_modules/prop-types/index.js ***!
+        \******************************************/
+
+/*!******************************************!*\
+        !*** ./src/components/toolbars/index.js ***!
+        \******************************************/
+
+/*!******************************************!*\
+        !*** ./src/components/uibridge/index.js ***!
+        \******************************************/
+
+/*!******************************************!*\
+        !*** ./src/components/uibridge/menu.jsx ***!
+        \******************************************/
+
+/*!******************************************!*\
+        !*** ./src/selections/selection-test.js ***!
+        \******************************************/
+
+/*!********************************************!*\
+        !*** ./src/components/uibridge/button.jsx ***!
+        \********************************************/
+
+/*!********************************************!*\
+        !*** ./src/plugins/selectionkeystrokes.js ***!
+        \********************************************/
+
+/*!*********************************************!*\
+        !*** ./node_modules/object-assign/index.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/base/button-props.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/base/button-style.js ***!
+        \*********************************************/
+
+/*!*********************************************!*\
+        !*** ./src/components/uibridge/uibridge.js ***!
+        \*********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/components/buttons/button-h1.jsx ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/components/buttons/button-h2.jsx ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/components/buttons/button-ol.jsx ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/components/buttons/button-ul.jsx ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/selections/selection-arrowbox.js ***!
+        \**********************************************/
+
+/*!**********************************************!*\
+        !*** ./src/selections/selection-position.js ***!
+        \**********************************************/
+
+/*!***********************************************!*\
+        !*** ./node_modules/path-browserify/index.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/base/button-command.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/compat/button-props.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/compat/button-style.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./src/components/uibridge/richcombo.jsx ***!
+        \***********************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/base/toolbar-buttons.js ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/base/widget-dropdown.js ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/buttons/button-bold.jsx ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/buttons/button-code.jsx ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/buttons/button-icon.jsx ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./src/components/buttons/button-link.jsx ***!
+        \************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/base/button-keystroke.js ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/base/widget-exclusive.js ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-color.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-embed.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-hline.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-image.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-quote.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/buttons/button-table.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/compat/button-command.js ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/toolbars/toolbar-add.jsx ***!
+        \*************************************************/
+
+/*!*************************************************!*\
+        !*** ./src/components/uibridge/menu-button.jsx ***!
+        \*************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/buttons/button-camera.jsx ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/buttons/button-italic.jsx ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/buttons/button-smiley.jsx ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/buttons/button-strike.jsx ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/buttons/button-styles.jsx ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/compat/toolbar-buttons.js ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/compat/widget-dropdown.js ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./src/components/compat/widget-position.js ***!
+        \**************************************************/
+
+/*!***************************************************!*\
+        !*** ./node_modules/prop-types/checkPropTypes.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/buttons/button-spacing.jsx ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/buttons/button-twitter.jsx ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/compat/button-keystroke.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/compat/widget-arrow-box.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./src/components/compat/widget-exclusive.js ***!
+        \***************************************************/
+
+/*!****************************************************!*\
+        !*** ./src/components/base/button-action-style.js ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** ./src/components/buttons/button-dropdown.jsx ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** ./src/components/toolbars/toolbar-styles.jsx ***!
+        \****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/regenerator-runtime/runtime.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/base/button-state-classes.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/base/widget-focus-manager.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/buttons/button-link-edit.jsx ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/buttons/button-separator.jsx ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/buttons/button-subscript.jsx ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/buttons/button-table-row.jsx ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./src/components/buttons/button-underline.jsx ***!
+        \*****************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/base/button-command-active.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/buttons/button-embed-edit.jsx ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/buttons/button-table-cell.jsx ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/buttons/button-table-edit.jsx ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./src/components/compat/button-action-style.js ***!
+        \******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/buttons/button-embed-video.jsx ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/buttons/button-link-browse.jsx ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/buttons/button-styles-list.jsx ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/buttons/button-superscript.jsx ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/buttons/button-target-list.jsx ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/compat/button-state-classes.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/compat/widget-focus-manager.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/components/uibridge/panel-menu-button.jsx ***!
+        \*******************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/buttons/button-camera-image.jsx ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/buttons/button-indent-block.jsx ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/buttons/button-remove-image.jsx ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/buttons/button-table-column.jsx ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/buttons/button-table-remove.jsx ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./src/components/compat/button-command-active.js ***!
+        \********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/buttons/button-commands-list.jsx ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/buttons/button-outdent-block.jsx ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/buttons/button-remove-format.jsx ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./src/components/buttons/button-table-heading.jsx ***!
+        \*********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./src/components/buttons/button-paragraph-align.jsx ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./src/components/compat/widget-interaction-point.js ***!
+        \***********************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-background-color.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-embed-video-edit.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-image-align-left.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-link-edit-browse.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-link-target-edit.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-paragraph-center.jsx ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./src/components/buttons/button-styles-list-item.jsx ***!
+        \************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./src/components/buttons/button-command-list-item.jsx ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./src/components/buttons/button-image-align-right.jsx ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./src/components/buttons/button-paragraph-justify.jsx ***!
+        \*************************************************************/
+
+/*!**************************************************************!*\
+        !*** ./src/components/buttons/button-image-align-center.jsx ***!
+        \**************************************************************/
+
+/*!**************************************************************!*\
+        !*** ./src/components/buttons/button-styles-list-header.jsx ***!
+        \**************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./src/components/buttons/button-item-selector-audio.jsx ***!
+        \***************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./src/components/buttons/button-item-selector-image.jsx ***!
+        \***************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./src/components/buttons/button-item-selector-video.jsx ***!
+        \***************************************************************/
+
+/*!****************************************************************!*\
+        !*** ./src/components/buttons/button-paragraph-align-left.jsx ***!
+        \****************************************************************/
+
+/*!*****************************************************************!*\
+        !*** ./src/components/buttons/button-paragraph-align-right.jsx ***!
+        \*****************************************************************/
+
+/*!******************************************************************!*\
+        !*** ./src/components/buttons/button-link-autocomplete-list.jsx ***!
+        \******************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./src/components/buttons/button-accessibility-image-alt.jsx ***!
+        \*******************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./src/components/buttons/button-styles-list-item-remove.jsx ***!
+        \*******************************************************************/
+
+/*!****************************************************************************************************!*\
+        !*** external {"amd":"react","commonjs":"react","commonjs2":"react","root":"React","umd":"react"} ***!
+        \****************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+        !*** external {"amd":"react-dom","commonjs":"react-dom","commonjs2":"react-dom","root":"ReactDOM","umd":"react-dom"} ***!
+        \***********************************************************************************************************************/
+
+/**
+         * @license Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+         * For licensing, see LICENSE.md or http://ckeditor.com/license
+         */
+
+/**
+         * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+         * For licensing, see LICENSE.md or http://ckeditor.com/license
+         */
+
+/**
+ * A better abstraction over CSS.
+ *
+ * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
+ * @website https://github.com/cssinjs/jss
+ * @license MIT
+ */
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+         * react-is.development.js
+         *
+         * Copyright (c) Facebook, Inc. and its affiliates.
+         *
+         * This source code is licensed under the MIT license found in the
+         * LICENSE file in the root directory of this source tree.
+         */
+
+/** @license React v16.13.1
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**!
+ * @fileOverview Kickass library to create and place poppers near their reference elements.
+ * @version 1.16.1
+ * @license
+ * Copyright (c) 2016 Federico Zivolo and contributors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */

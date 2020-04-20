@@ -1,0 +1,13 @@
+{
+  "short_name": "Virtual Gift",
+  "name": "Share Virtual Gift Online",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
